@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header></header>
+    <!-- Sección principal -->
+    <main class="contenido">
+        <img class="contenido__logo" src="./assets/images/Logo.svg" alt="alura latam icon">
+        <section class="contenido__entrada">
+
+            <textarea  class="contenido__entrada__texto" id="texto-entrada" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="contenido__entrada__alerta">
+                <img class="contenido__entrada__alerta__icono" src="./assets/images/bi_exclamation-circle-fill.svg" alt="icono de alerta de exclamación">
+                <p class="contenido__entrada__alerta__texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenido__entrada__botones">
+                <button class="contenido__entrada__boton" id="encriptar">Encriptar</button>
+                <button class="contenido__entrada__boton" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenido__salida">
+            <div class="contenido__salida__sinmensaje" id="salida-no-mensaje">
+                <img src="./assets/images/Muñeco.svg" class="contenido__salida__sinmensaje__imagen" alt="avatar de elemento no encontrado">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="contenido__salida__mensaje" id="salida-mensaje">
+                <p class="contenido__salida__mensaje__texto" id="texto-salida"></p>
+                <button class="contenido__salida__mensaje__boton" id="copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <!-- Pie de página -->
+    <footer></footer>
+    <!-- Enlace a archivo JavaScript -->
+    <script src="./assets/script.js"></script>
+</body>
+</html>
+
